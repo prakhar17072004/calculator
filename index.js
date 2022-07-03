@@ -1,10 +1,10 @@
 let display = document.getElementById('display');
 
 
-let buttons= Array.from(document.getElementsByClassName('button'));
+let buttons = Array.from(document.getElementsByClassName('button'));
 
 buttons.map( button  => {
-    button.addEventListener('click', (e) =>{
+    button.addEventListener('click', (e) => {
        switch(e.target.innerText){
          case'C':
                display.innerText = '';
@@ -17,7 +17,7 @@ buttons.map( button  => {
         case'=':
               try{
                 display.innerText = eval(display.innerText);
-            }catch{
+            } catch {
                 display.innerText = 'Error!';
               }
                
