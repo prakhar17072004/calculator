@@ -34,8 +34,3 @@
     background-color: blue;
     color:white;
 }
-.button:hover{
-    background-color:#323340;
-    color:white;
-    transition:.5s ease-in-out;
-}
